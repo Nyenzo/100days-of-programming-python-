@@ -7,5 +7,6 @@ del nyenzo_list[1]
 print(nyenzo_list)
 list2='pen','pencil','ruler','rubber','books'
 print(list2)
-shoppinglist=nyenzo_list+list2
+shopping_list=nyenzo_list+list2
+print(shopping_list)
 
