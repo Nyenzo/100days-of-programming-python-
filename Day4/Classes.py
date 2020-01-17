@@ -24,7 +24,6 @@ class Giraffes(Mammals):
         self.rightfootforward=rightfootforward
     def dance(self):
         self.leftfootforward()
-        print("Left foot forward")
         self.leftfootback()
         self.rightfootforward()
         self.rightfootback()
@@ -32,4 +31,12 @@ class Giraffes(Mammals):
         self.rightfootback()
         self.rightfootforward()
         self.leftfootforward()
+        
 Barka = Giraffes("left foot forward","left foot backward","right foot forward","right foot backward")
+print(Barka.leftfootback)
+print(Barka.leftfootback)
+print(Barka.rightfootback)
+print(Barka.leftfootback)
+print(Barka.rightfootback)
+print(Barka.rightfootforward)
+print(Barka.leftfootforward)
